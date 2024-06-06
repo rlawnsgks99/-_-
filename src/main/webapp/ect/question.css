@@ -1,0 +1,274 @@
+.banner {
+  float: left;
+  width: 100%;
+  height: 400px;
+  margin-top: 120px;
+}
+
+/* box_menu */
+
+.box_menu {
+  float: left;
+  width: 1100px;
+  height: 150px;
+  margin: 50px 0 0 225px;
+}
+
+.box_menu .box_menu_one {
+  float: left;
+  width: 238px;
+  height: 100px;
+  margin: 20px 0 0 155px;
+  background-color: #f4f3ed;
+}
+
+.box_menu .box_menu_two {
+  float: left;
+  width: 238px;
+  height: 100px;
+  margin: 20px 0 0 20px;
+  background-color: #f4f3ed;
+}
+
+.box_menu .box_menu_three {
+  float: left;
+	width: 238px;
+	height: 100px;
+	margin: 20px 0 0 25px;
+  background-color: #C580DA;
+}
+
+.box_menu .box_menu_three_t1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.box_menu .box_menu_one_t1, 
+.box_menu .box_menu_two_t1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px;
+  font-weight: 500;
+  color: #4B4B4B;
+}
+
+/* content */
+
+.content {
+	height: 1000px;
+}
+
+.content .content_first {
+  float: left;
+  width: 600px;
+  height: 100px;
+  margin: 60px 0 0 450px;
+}
+
+.content .content_first .content_first_title_t1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content .content_first .content_first_title_t2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.content .question {
+  float: left;
+  /* border: 1px solid; */
+  width: 1200px;
+  height: 2000px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.content .question .question_one,
+.content .question .question_two,
+.content .question .question_three,
+.content .question .question_four,
+.content .question .question_five,
+.content .question .question_six {
+  width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  /* border: 1px solid; */
+}
+
+.question_one_img,
+.question_two_img,
+.question_three_img,
+.question_four_img,
+.question_five_img {
+  position: relative;
+  top: 80px;
+  left: 700px;
+  /* border: 1px solid; */
+}
+
+.content .question .question_one .question_one_circle,
+.content .question .question_two .question_two_circle,
+.content .question .question_three .question_three_circle,
+.content .question .question_four .question_four_circle,
+.content .question .question_five .question_five_circle,
+.content .question .question_six .question_six_circle {
+  position: relative;
+  width: 133px;
+  height: 23px;
+  top: 40px;
+  left: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #C580DA;
+  color: #000;
+}
+
+.content .question .question_one .question_one_t1,
+.content .question .question_two .question_two_t1,
+.content .question .question_three .question_three_t1,
+.content .question .question_four .question_four_t1,
+.content .question .question_five .question_five_t1,
+.content .question .question_six .question_six_t1 {
+  width: 100%;
+  line-height: 150px;
+  background: #000;
+  color: #000;
+  box-sizing: border-box;
+  padding: 0 10px;
+  background-color: #FFFFFF;
+  /* border: 1px solid; */
+}
+
+.question .question_one .question_one_answer {
+  /* border: 1px solid; */
+}
+
+.question .question_one .question_one_answer .question_one_answer_circle,
+.question .question_two .question_two_answer .question_two_answer_circle,
+.question .question_three .question_three_answer .question_three_answer_circle,
+.question .question_four .question_four_answer .question_four_answer_circle,
+.question .question_five .question_five_answer .question_five_answer_circle {
+  position: relative;
+  width: 133px;
+  height: 23px;
+  left: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #FCA969;
+  color: #000;
+}
+
+.question .question_one .question_one_answer .question_one_answer_t1,
+.question .question_two .question_two_answer .question_two_answer_t1,
+.question .question_three .question_three_answer .question_three_answer_t1,
+.question .question_four .question_four_answer .question_four_answer_t1,
+.question .question_five .question_five_answer .question_five_answer_t1 {
+  width: 750px;
+  margin-top: 20px;
+  line-height: 100px;
+  background: #000;
+  color: #000;
+  box-sizing: border-box;
+  padding: 0 10px;
+  background-color: #FAEDDF;
+  /* border: 1px solid; */
+}
+
+/*FOOTER*/
+.footer {
+  position: absolute;
+	top: 3320px;
+}
+
+footer {
+  background-color: #272727;
+  border-top: 1px solid #333;
+}
+
+footer .inner {
+  padding: 40px 180px 60px 210px;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: center;
+}
+
+footer .menu li {
+  position: relative;
+}
+
+footer .menu li::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  margin: auto;
+}
+
+footer .menu li:last-child::before {
+  display: none;
+}
+
+footer .menu li a {
+  display: block;
+  color: #CCC;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+footer .menu li a.purple {
+  color: #C580DA;
+}
+
+footer .btn-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .btn-group .btn {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+footer .btn-group .btn:last-child {
+  margin-right: 0;
+}
+
+footer .info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer .info span {
+  margin-right: 20px;
+  color: #999;
+  font-size: 12px;
+}
+
+footer .info span:last-child {
+  margin-right: 0;
+}
+
+footer .copyright {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+footer .logo {
+  margin: 30px auto 0;
+}

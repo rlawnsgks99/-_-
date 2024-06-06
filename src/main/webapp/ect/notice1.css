@@ -1,0 +1,157 @@
+.banner {
+  float: left;
+  width: 100%;
+  height: 400px;
+  margin-top: 120px;
+}
+
+/* box_menu */
+
+.box_menu {
+  float: left;
+  width: 1100px;
+  height: 150px;
+  margin: 50px 0 0 225px;
+}
+
+.box_menu .box_menu_one {
+  float: left;
+  width: 238px;
+  height: 100px;
+  margin: 20px 0 0 155px;
+  background-color: #f4f3ed;
+}
+
+.box_menu .box_menu_two {
+  float: left;
+	width: 238px;
+	height: 100px;
+	margin: 20px 0 0 25px;
+  background-color: #C580DA;
+}
+
+.box_menu .box_menu_three {
+  float: left;
+  width: 238px;
+  height: 100px;
+  margin: 20px 0 0 20px;
+  background-color: #f4f3ed;
+}
+
+
+.box_menu .box_menu_two_t1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.box_menu .box_menu_one_t1, 
+.box_menu .box_menu_three_t1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px;
+  font-weight: 500;
+  color: #4B4B4B;
+}
+/* content */
+
+.content {
+	height: 1000px;
+}
+
+.content .content_first {
+  float: left;
+  width: 600px;
+  height: 100px;
+  margin: 60px 0 0 450px;
+}
+
+.content .content_first .content_first_title_t1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content .content_first .content_first_title_t2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.content .content_second {
+  float: left;
+  /* border: 1px solid; */
+  width: 1030px;
+  height: 1200px;
+  /* margin-top: 80px; */
+  margin-left: 250px;
+}
+
+.content .content_second .content_second_number {
+  float: left;
+  margin-top: 55px;
+  margin-left: 770px;
+  margin-bottom: 20px;
+}
+
+table.content_second_notice {
+  float: left;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+table.content_second_notice thead {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 1px solid #C580DA;
+  border-bottom: 1px solid #C580DA;
+  color: black;
+  margin: 20px 10px;
+}
+
+table.content_second_notice thead th {
+  /*번호칸 가로길이*/
+  width: 50px;
+  padding: 15px 10PX 0 10PX;
+}
+
+table.content_second_notice td {
+  /*내용 작성자 답변 길이*/
+  padding: 10px;
+  vertical-align: middle;
+}
+
+table.content_second_notice .content_second_notice_num {
+  width: 150px;
+  height: 40px;
+}
+
+table.content_second_notice .content_second_notice_title {
+  width: 650px;
+}
+
+table.content_second_notice .content_second_notice_date {
+  width: 200px;
+}
+
+table.content_second_notice .content_second_notice_hits {
+  width: 100px;
+}
+
+table.content_second_notice .content_second_notice_admin {
+  background: #E2E6F0;
+  height: 60px;
+}
+
+table.content_second_notice .content_second_notice_user {
+  background: #ffffff;
+  height: 60px;
+}
